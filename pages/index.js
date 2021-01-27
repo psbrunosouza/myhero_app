@@ -3,6 +3,8 @@ import { Container, QuizContainer } from '../src/components/Container';
 import Logo from '../src/components/Logo';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Footer from '../src/components/Footer';
+import preset from '../config/presetConfig.json';
+
 
 export default function Home() {
   return (
@@ -12,8 +14,8 @@ export default function Home() {
 
         <Widget>
           <Widget.Content>
-            <h1>Boku no hero</h1>
-            <p>Nos conte seu nome de <strong>herói</strong> abaixo e descubra se você é <strong>PLUS ULTRA!</strong></p>
+            <h1>{preset.title}</h1>
+            <p>{preset.description}</p>
             <input type="text" placeholder="Digite seu nome de HERÓI"/>
             <button>Iniciar quiz</button>
           </Widget.Content>

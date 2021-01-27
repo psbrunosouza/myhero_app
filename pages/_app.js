@@ -1,4 +1,6 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import Head from 'next/head';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+
 import preset from '../config/presetConfig.json';
 
 const GlobalStyle = createGlobalStyle`
@@ -33,6 +35,12 @@ const theme = preset.theme;
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>My hero quiz</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"></link>
+      </Head>
+
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />
