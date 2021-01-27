@@ -1,3 +1,4 @@
+import React from 'react';
 import Head from 'next/head';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
@@ -29,8 +30,9 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     line-height: 1;
   }
-`
-const theme = preset.theme;
+`;
+
+const { theme } = preset;
 
 export default function App({ Component, pageProps }) {
   return (
@@ -38,7 +40,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>My hero quiz</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
 
       <ThemeProvider theme={theme}>
@@ -46,5 +48,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }
