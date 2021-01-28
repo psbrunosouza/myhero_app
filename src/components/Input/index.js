@@ -5,13 +5,13 @@ import preset from '../../../config/presetConfig.json';
 const InputStyle = styled.input`
 
   background: ${preset.theme.colors.secondary};
-  border: 0;
   height: 32px;
   padding: 0 8px;
   border-radius: 10px;
+  border: 1px solid ${preset.theme.colors.button};
+
 
   &:focus {
-    border: 1px solid ${preset.theme.colors.button};
     outline: none;
   }
 
@@ -21,7 +21,6 @@ const InputStyle = styled.input`
 `;
 
 export default function Input({
-  isFilled,
   placeholder,
   type,
   ...rest

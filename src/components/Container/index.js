@@ -10,11 +10,11 @@ export const Container = styled.div`
 `;
 
 export const QuizContainer = styled.div`
-  max-width: 350px;
-  margin: auto 10%;
-  padding-top: 45px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+max-width: 350px;
+margin: auto 10%;
+padding-top: 45px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 `;

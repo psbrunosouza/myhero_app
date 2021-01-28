@@ -1,13 +1,17 @@
+// REACT AND NEXT
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
+// DATABASE
+import preset from '../config/presetConfig.json';
+// LAYOUT COMPONENTS
 import Widget from '../src/components/Widget';
 import { Container, QuizContainer } from '../src/components/Container';
-import Logo from '../src/components/Logo';
-import GitHubCorner from '../src/components/Corner';
 import Footer from '../src/components/Footer';
-import preset from '../config/presetConfig.json';
+// DESIGN COMPONENTS
+import Logo from '../src/components/Logo';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
+import Corner from '../src/components/Corner';
 
 export default function Home() {
   const router = useRouter();
@@ -58,7 +62,7 @@ export default function Home() {
 
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/psbrunosouza" />
+      <Corner projectUrl="https://github.com/psbrunosouza" />
     </Container>
   );
 }

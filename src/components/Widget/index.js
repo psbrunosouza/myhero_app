@@ -12,7 +12,15 @@ const Widget = styled.div`
   }
 `;
 
-Widget.Content = styled.div`
+Widget.Header = styled.header`
+  img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 220px;
+  }
+`;
+
+Widget.Content = styled.section`
   padding: 24px 28px;
   display: flex;
   flex-direction: column;
@@ -20,6 +28,23 @@ Widget.Content = styled.div`
   form {
     display: flex;
     flex-direction: column;
+  }
+`;
+
+Widget.Alternative = styled.a`
+  background-color: #113028;
+  border-radius: 10px;
+  padding: 5px 16px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: #184f41;
+  }
+
+  input[type=radio] {
+    display: none;
   }
 `;
 export default Widget;
