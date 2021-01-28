@@ -34,7 +34,7 @@ function QuizQuestion({
         }}
         >
           {alternatives.map((alternative) => (
-            <Widget.Alternative as="label" key={questionIndex}>
+            <Widget.Alternative as="label">
               <input type="radio" name={questionIndex} />
               {alternative}
             </Widget.Alternative>
@@ -66,11 +66,13 @@ export default function Quiz() {
     }, 1 * 1000);
   }, []);
 
-  function handleQuizSubmit() {
-    const nextFunction = currentQuestion + 1;
+  console.log(`currentQuest: ${currentQuestion + 1} total: ${totalQuestions}`);
 
-    if (nextFunction < totalQuestions) {
-      setCurrentQuestion(currentQuestion + 1);
+  function handleQuizSubmit() {
+    const nextQuest = currentQuestion + 1;
+
+    if (nextQuest < totalQuestions) {
+      setCurrentQuestion(nextQuest);
     } else {
       setScreenState(quizState.RESULT);
     }

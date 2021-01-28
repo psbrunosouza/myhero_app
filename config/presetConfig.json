@@ -5,25 +5,38 @@
   "logoImg": "https://user-images.githubusercontent.com/45085894/105908243-bce21180-6004-11eb-8422-16404081050a.png",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F49.media.tumblr.com%2F212d77fd7860b463959bb7786d6acc0d%2Ftumblr_o3a7y4a9JI1rvbl4vo5_540.gif&f=1&nofb=1",
+      "title": "Qual o nome de herói do Midoriya ?",
+      "description": "Essa é bem fácil!",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Deku",
+        "Destroyer",
+        "Deru",
+        "OneForALL"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.co%2Fimages%2F32a0316c0ebae66b63cd8197cf8239b2%2Fraw&f=1&nofb=1",
+      "title": "Como o poder do allMight é passado a outro portador ?",
+      "description": "Essa é bem divertida!",
+      "answer": 1,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Recebendo um soco do portador",
+         "Liberando uma descarga de energia",
+         "Consumindo material genetico",
+         "Pedindo aos deuses"
+      ]
+    },
+    {
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F508fe7a0908b87ea1de36391094a1049%2Ftenor.gif%3Fitemid%3D9214816&f=1&nofb=1",
+      "title": "Qual o herói favorito do Midoriya ?",
+      "description": "Essa é bem divertida!",
+      "answer": 1,
+      "alternatives": [
+         "Endeavor",
+         "AllMight",
+         "Gang Orca"
       ]
     }
   ],
