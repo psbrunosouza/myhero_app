@@ -30,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     line-height: 1;
   }
+
+  ul, li, ol{
+    list-style: none;
+  }
 `;
 
 const { theme } = preset;

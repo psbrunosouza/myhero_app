@@ -8,7 +8,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F49.media.tumblr.com%2F212d77fd7860b463959bb7786d6acc0d%2Ftumblr_o3a7y4a9JI1rvbl4vo5_540.gif&f=1&nofb=1",
       "title": "Qual o nome de herói do Midoriya ?",
       "description": "Essa é bem fácil!",
-      "answer": 1,
+      "answer": 0,
       "alternatives": [
         "Deku",
         "Destroyer",
@@ -20,7 +20,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.co%2Fimages%2F32a0316c0ebae66b63cd8197cf8239b2%2Fraw&f=1&nofb=1",
       "title": "Como o poder do allMight é passado a outro portador ?",
       "description": "Essa é bem divertida!",
-      "answer": 1,
+      "answer": 2,
       "alternatives": [
          "Recebendo um soco do portador",
          "Liberando uma descarga de energia",
@@ -35,7 +35,7 @@
       "answer": 1,
       "alternatives": [
          "Endeavor",
-         "AllMight",
+         "All Might",
          "Gang Orca"
       ]
     }
@@ -47,13 +47,14 @@
     "colors": {
       "primary": "#144236",
       "secondary": "#113028",
+      "selected": "#24683e",
       "mainBg": "#143a30",
       "button": "#FF5722",
       "buttonDisabled": "#c68977",
       "buttonHover": "#ba431f",
       "placeholder": "#abbab0",
       "contrastText": "#FFFFFF",
-      "wrong": "#FF5722",
+      "wrong": "#9A0304",
       "success": "#4CAF50"
     },
     "borderRadius": "4px"

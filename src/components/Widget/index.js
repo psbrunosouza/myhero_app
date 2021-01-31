@@ -16,7 +16,7 @@ Widget.Header = styled.header`
   img {
     width: 100%;
     object-fit: cover;
-    max-height: 220px;
+    height: 220px;
   }
 `;
 
